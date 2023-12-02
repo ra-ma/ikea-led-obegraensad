@@ -12,11 +12,11 @@
 #endif
 
 #ifdef ESP8266
-#define PIN_ENABLE 16
-#define PIN_DATA 13
-#define PIN_CLOCK 14
-#define PIN_LATCH 0
-#define PIN_BUTTON 2
+#define PIN_ENABLE D5 //16
+#define PIN_DATA D6 //13
+#define PIN_CLOCK D7 //14
+#define PIN_LATCH D8 // 0
+#define PIN_BUTTON D4 //2
 #endif
 
 // disable if you do not want to use the internal storage
@@ -36,7 +36,7 @@
 #define ROWS 16
 
 // set your city or coords (https://github.com/chubin/wttr.in)
-#define WEATHER_LOCATION "Hamburg"
+#define WEATHER_LOCATION "Essen"
 
 
 // ---------------
