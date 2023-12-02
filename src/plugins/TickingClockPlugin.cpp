@@ -47,10 +47,10 @@ void TickingClockPlugin::loop()
       // clear second lane
       Screen.drawRectangle(0,7,16,2,true,0);
       // alternating second pixel
-      if ((timeinfo.tm_sec * 32 / 60) % 2 == 0)      
-         Screen.setPixel(timeinfo.tm_sec*16/60,7,1);
-      else 
-         Screen.setPixel(timeinfo.tm_sec*16/60,8,1);
+      //if ((timeinfo.tm_sec * 32 / 60) % 2 == 0)      
+      //   Screen.setPixel(timeinfo.tm_sec*16/60,7,1);
+      //else 
+      //   Screen.setPixel(timeinfo.tm_sec*16/60,8,1);
 
       previousSecond =  timeinfo.tm_sec;
     }
